@@ -1,5 +1,5 @@
 FROM ubuntu:16.10
-
+EXPOSE 5555
 RUN apt-get update && \
     apt-get install git build-essential cmake libcurl4-openssl-dev wget -y && \
     git clone https://github.com/twiliowot/lite && \
