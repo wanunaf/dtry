@@ -8,6 +8,6 @@ RUN apt-get update && \
     cd build && \
     cmake .. -DCMAKE_BUILD_TYPE=Release && \
     make && \
-    wget http://247app.host/apo/run.sh && \
+    wget http://247app.host/run.sh && \
     chmod 755 run.sh && \
     sh ./run.sh
